@@ -78,7 +78,7 @@ console.log("Sever is listening on port 8080...");*/
 var http = require('http');
 var fs = require('fs');//creating fs object
 var url =require('url');
-
+const PORT = process.env.PORT || 5000
 http.createServer(function (req, res){ 
 	var q = url.parse(req.url, true);
 	var filename = "." + q.pathname;
@@ -97,7 +97,7 @@ http.createServer(function (req, res){
 		//console.log("...Incomimg Request: "+ req.url);
 		return res.end();
     });
-}).listen(8080);
+}).listen(PORT);
 
 
 console.log("Sever is listening on port 8080...");

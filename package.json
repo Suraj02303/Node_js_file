@@ -4,6 +4,7 @@
   "description": "My first Web App",
   "main": "file_sytem.js",
   "scripts": {
+    "start" : "node file_sytem.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
