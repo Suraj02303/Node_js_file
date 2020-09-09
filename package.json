@@ -1,0 +1,19 @@
+{
+  "name": "node_files",
+  "version": "12.18.3",
+  "description": "My first Web App",
+  "main": "file_sytem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suraj02303/Node_js_file.git"
+  },
+  "author": "Suraj Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Suraj02303/Node_js_file/issues"
+  },
+  "homepage": "https://github.com/Suraj02303/Node_js_file#readme"
+}
